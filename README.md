@@ -6,7 +6,7 @@ This is docker image for [Surrealist](https://github.com/StarlaneStudios/Surreal
 
 To build latest image for release run:
 ```sh
-docker build -t surrealist:release .
+docker build -t surrealist:main .
 ```
 
 To build latest image for nightly run:
@@ -25,7 +25,7 @@ docker build -t surrealist:BRANCH . --build-arg branch=BRANCH
 
 After build image of your choice you can run it with:
 ```sh
-docker run -d -p 8080:80 surrealist:release
+docker run -d -p 8080:80 surrealist:main
 ```
 
 After that you can open Surrealist on [http://localhost:8080/](http://localhost:8080/).

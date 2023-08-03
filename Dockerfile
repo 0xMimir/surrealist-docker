@@ -1,6 +1,6 @@
 FROM node:latest as builder
 
-ARG branch=release
+ARG branch=main
 
 WORKDIR /root/
 RUN git clone https://github.com/StarlaneStudios/Surrealist build
